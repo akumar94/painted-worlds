@@ -98,4 +98,4 @@ Open [http://localhost:3000](http://localhost:3000)
 
 Painted Worlds is a proof of concept for what the future of art commerce could look like — immersive, spatial, experiential. Before you bid on a Hassam or a Monet, you should be able to *stand inside it*.
 
-*Built with love at 3am. 🎨*
+
