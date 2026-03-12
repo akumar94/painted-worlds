@@ -24,7 +24,7 @@ You stand in a museum. Three masterworks hang on the wall. Walk toward any paint
 
 | | Title | Artist | Year |
 |---|---|---|---|
-| Left | Autumn Stroll in Central Park | Childe Hassam | 1898 |
+| Left | Nurses in the Park | Childe Hassam | 1898 |
 | Center | Arrival at the Palace of Amber | Edwin Lord Weeks | 1883 |
 | Right | Garden at Sainte-Adresse | Claude Monet | 1867 |
 
