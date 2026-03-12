@@ -14,9 +14,9 @@ Thanks to the entire [World Labs](https://www.worldlabs.ai/) team for building M
 
 ## The Idea
 
-Auction houses like Sotheby's sell the world's greatest paintings — but buyers experience them as flat JPEGs on a screen. What if you could *walk into* a painting before bidding on it? Painted Worlds makes that real.
+Auction houses like Sotheby's sell the world's greatest paintings, but buyers experience them as flat JPEGs on a screen. What if you could *walk into* a painting before bidding on it? Painted Worlds makes that real.
 
-You stand in a museum. Three masterworks hang on the wall. Walk toward any painting and you're teleported *inside* it — into a fully navigable 3D world generated from the artwork itself.
+You stand in a museum. Three masterworks hang on the wall. Walk toward any painting and you're teleported *inside* it, into a fully navigable 3D world generated from the artwork itself.
 
 ---
 
