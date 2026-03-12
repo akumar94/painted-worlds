@@ -10,10 +10,6 @@ Huge thanks to the [galileo-ml](https://github.com/galileo-ml/marble-hackathon) 
 
 Thanks to the entire [World Labs](https://www.worldlabs.ai/) team for building Marble and making this kind of spatial experience possible.
 
-A 3D museum experience built on [World Labs' Marble API](https://platform.worldlabs.ai/) where you walk through a grand classical gallery and step *inside* masterpiece paintings as explorable Gaussian splat worlds.
-
-
-
 ---
 
 ## The Idea
@@ -31,6 +27,16 @@ You stand in a museum. Three masterworks hang on the wall. Walk toward any paint
 | Left | Autumn Stroll in Central Park | Childe Hassam | 1898 |
 | Center | Arrival at the Palace of Amber | Edwin Lord Weeks | 1883 |
 | Right | Garden at Sainte-Adresse | Claude Monet | 1867 |
+
+---
+
+## Demo
+
+
+
+https://github.com/user-attachments/assets/ff2bed97-54c2-4436-9f46-b8af55e7bad9
+
+
 
 ---
 
@@ -67,7 +73,7 @@ You stand in a museum. Three masterworks hang on the wall. Walk toward any paint
 ## Getting Started
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/painted-worlds
+git clone https://github.com/akumar94/painted-worlds
 cd painted-worlds
 npm install
 ```
@@ -84,17 +90,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000)
 
----
-
-## Generating Your Own Worlds
-
-The `.spz` files in `/public/paintings/` were generated via the Marble API. To regenerate:
-
-```bash
-node scripts/generate-worlds.js
-```
-
-Or use the [Marble web UI](https://marble.worldlabs.ai/) with image-to-world prompting.
+> **Note:** The `.spz` Gaussian splat files are not included in this repo due to file size. Generate your own via the [Marble web UI](https://marble.worldlabs.ai/) or API and place them in `/public/paintings/`.
 
 ---
 
@@ -102,4 +98,4 @@ Or use the [Marble web UI](https://marble.worldlabs.ai/) with image-to-world pro
 
 Painted Worlds is a proof of concept for what the future of art commerce could look like — immersive, spatial, experiential. Before you bid on a Hassam or a Monet, you should be able to *stand inside it*.
 
-
+*Built with love at 3am. 🎨*
