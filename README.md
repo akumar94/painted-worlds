@@ -98,4 +98,37 @@ Open [http://localhost:3000](http://localhost:3000)
 
 Painted Worlds is a proof of concept for what the future of art commerce could look like — immersive, spatial, experiential. Before you bid on a Hassam or a Monet, you should be able to *stand inside it*.
 
+## Model Observations
+
+**What worked best:**
+Monet's water scenes were the standout. The Marble API handled 
+Impressionist soft edges and reflective surfaces with surprising 
+fidelity. The generated world renders from an elevated vantage 
+point above the figures, which feels compositionally correct for 
+how Monet actually painted. Depth interpretation felt earned, 
+not invented.
+
+Childe Hassam's Central Park scene handled spatial recession well 
+along the curved central path. The model read the implied depth 
+correctly and the navigable world follows that natural curve in a 
+way that feels intuitive to walk through.
+
+**Where the model struggled:**
+Edwin Lord Weeks presented the hardest challenge. Hard architectural 
+lines, geometric shapes, and strong light/shadow contrast were less 
+forgiving than soft Impressionist work. The splat primitives that 
+handle painterly ambiguity so well are less suited to scenes that 
+imply precise geometry.
+
+**The museum generation problem:**
+Initial approach: generate a gallery space and place paintings inside 
+it. Marble consistently populated the canvas walls with its own 
+imagery rather than leaving whitespace for the target paintings. 
+Cropping to whitespace via the selector tool produced repeated draft 
+generation errors.
+
+The fix: use Gemini to generate a composite reference image of the 
+three paintings first, then feed that to Marble as the source. 
+Image generation first, world generation second.
+
 
